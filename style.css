@@ -68,10 +68,12 @@ header nav a:hover {
     align-items: center;
     gap: 40px;
     text-align: left; /* Text ko left-align kiya taaki photo ke sath accha dikhe */
+    flex-direction: column;
+    gap: 20px;
 }
 
 .hero-text {
-    flex: 1;
+    text-align: center;
 }
 
 .hero h1 {
